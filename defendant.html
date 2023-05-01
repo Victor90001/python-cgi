@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Подсудимые</title>
+</head>
+
+<body>
+<h2>Для добавления данных в таблицу введите данные в форму</h2>
+<form action="cgi-bin/post_handler.py" method="post">
+	<label>ФИО</label><br>
+	<input type="text" name="fullname" placeholder="Фамилия И.О.(если есть)"><br>
+	<label>Дата рождения</label><br>
+	<input type="date" name="birthdate"><br>
+	<label>Адрес проживания</label><br>
+	<input type="text" name="address"><br>
+	<input type="submit" name="submit">
+</form><br>
+<button type="button" onclick="home()">Вернуться в главное меню</button><br>
+<form action="\cgi-bin\table_view.py" method="post">
+    <input name="table" hidden value="defendants">
+    <input type="submit" name="submit" value="Вывести содержимое таблицы">
+</form>
+<form action="/cgi-bin/xmlexport.py" method="post">
+    <input name="table" hidden value="defendants">
+    <input type="submit" name="submit" value="Экспорт таблицы в xml">
+</form>
+<script type="text/javascript">
+	function home(){
+		window.location.href = "/";
+	}
+</script>
+</body>
+</html>

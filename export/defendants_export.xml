@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<data>
+  <table>
+    defendants
+    <row>
+      1
+      <id_def>1</id_def>
+      <fullname>Petrov I.V.</fullname>
+      <birthdate>2000-11-10</birthdate>
+      <address>country, city, street, house</address>
+    </row>
+    <row>
+      2
+      <id_def>2</id_def>
+      <fullname>Ivanov D.A.</fullname>
+      <birthdate>1969-04-02</birthdate>
+      <address>country, city, street, house</address>
+    </row>
+    <row>
+      3
+      <id_def>3</id_def>
+      <fullname>Chernov I.V.</fullname>
+      <birthdate>1985-07-23</birthdate>
+      <address>country, city, street, house</address>
+    </row>
+  </table>
+</data>

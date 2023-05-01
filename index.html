@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Главное меню</title>
+</head>
+
+<body>
+<h1>Выберите таблицу в которую хотите внести данные</h1>
+<form action="defendant.html">
+	<input type="submit" value="Таблица с подсудимыми">
+</form>
+<form action="judges.html">
+	<input type="submit" value="Таблица с судьями">
+</form>
+<form action="/cgi-bin/case_get_handler.py" method="get">
+	<input type="submit" value="Таблица дел">
+</form>
+<br/>
+<form action="cgi-bin/xmlimport.py" method="post">
+	<input type="file" name="import" accept=".xml">
+    <input type="submit" name="submit" value="Импорт данных в таблицу из xml">
+</form>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<data>
+  <table>
+    judges
+    <row>
+      1
+      <id_judge>1</id_judge>
+      <fullname>Jimmy McGill</fullname>
+      <w_exp>0</w_exp>
+      <closed_cases/>
+    </row>
+    <row>
+      2
+      <id_judge>2</id_judge>
+      <fullname>Dolores Umbridge</fullname>
+      <w_exp>60</w_exp>
+      <closed_cases>17</closed_cases>
+    </row>
+    <row>
+      3
+      <id_judge>3</id_judge>
+      <fullname>The Judge</fullname>
+      <w_exp>20</w_exp>
+      <closed_cases>100</closed_cases>
+    </row>
+  </table>
+</data>

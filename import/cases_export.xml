@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<data>
+  <table>
+    cases
+    <row>
+      1
+      <id_case>1</id_case>
+      <id_def>1</id_def>
+      <id_judge>2</id_judge>
+      <start_date>2023-04-23 23:26:37.275379</start_date>
+      <end_date>null</end_date>
+      <guilty>NULL</guilty>
+      <info>main info</info>
+      <closed>0</closed>
+    </row>
+    <row>
+      2
+      <id_case>2</id_case>
+      <id_def>2</id_def>
+      <id_judge>2</id_judge>
+      <start_date>2009-04-23 23:26:37.275379</start_date>
+      <end_date>2010-04-23 23:26:37.275379</end_date>
+      <guilty>1</guilty>
+      <info>main info</info>
+      <closed>1</closed>
+    </row>
+    <row>
+      3
+      <id_case>3</id_case>
+      <id_def>3</id_def>
+      <id_judge>3</id_judge>
+      <start_date>2021-04-23 23:26:37.275379</start_date>
+      <end_date>NULL</end_date>
+      <guilty>NULL</guilty>
+      <info>main info</info>
+      <closed>0</closed>
+    </row>
+    <row>
+      4
+      <id_case>4</id_case>
+      <id_def>3</id_def>
+      <id_judge>3</id_judge>
+      <start_date>2022-11-23 23:26:37.275379</start_date>
+      <end_date>2022-12-23 23:26:37.275379</end_date>
+      <guilty>0</guilty>
+      <info>main info</info>
+      <closed>1</closed>
+    </row>
+  </table>
+</data>
